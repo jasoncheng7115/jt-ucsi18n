@@ -1,0 +1,3 @@
+# jt-ucsi18n version map (read by install.sh)
+# series  min_patchlevel  max_patchlevel  package_version  file  sha256
+5.2 3 7 1.1.0-1 dist/univention-l10n-zh-tw_1.1.0-1_all.deb 53a1cabb3f86b947a14879c5cbe8c5831d316c422986936ebf895b1051190ccb

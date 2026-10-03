@@ -1,0 +1,10 @@
+# internal working notes (not part of the public release)
+CLAUDE.md
+STATUS.md
+SUBMISSION.md
+test-report.md
+submit/
+
+.DS_Store
+__pycache__/
+*.pyc

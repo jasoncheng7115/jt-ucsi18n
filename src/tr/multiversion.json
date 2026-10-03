@@ -1,0 +1,88 @@
+{
+ "management/univention-appcenter/umc/js/zh_TW.po": {
+  "%(name)s must be installed on the Primary Directory Node (domaincontroller_master) first. It can only be installed on this server (%(current_role)s) once it has been installed there.": "%(name)s 必須先安裝在主要目錄節點 (domaincontroller_master) 上。在該處安裝完成後，才能安裝到這台伺服器 (%(current_role)s)。",
+  "%d hosts were removed from the list because the App must be installed on the Primary Directory Node first.": "已從清單中移除 %d 台主機，因為此應用程式必須先安裝在主要目錄節點上。",
+  "%s was removed from the list because the App must be installed on the Primary Directory Node first.": "已從清單中移除 %s，因為此應用程式必須先安裝在主要目錄節點上。"
+ },
+ "management/univention-directory-manager-modules/modules/univention/admin/handlers/policies/zh_TW.po": {
+  "Defines recyclebin behavior for UDM objects": "定義 UDM 物件的資源回收筒行為",
+  "Enable or disable recyclebin for objects in this scope": "啟用或停用此範圍內物件的資源回收筒",
+  "Name of the recyclebin policy": "資源回收筒原則的名稱",
+  "Number of days to keep objects in recyclebin (0 = indefinite)": "物件保留在資源回收筒中的天數 (0 = 無限期)",
+  "Objects having one of these object classes will not be moved to recyclebin.": "具有下列任一物件類別的物件不會移至資源回收筒。",
+  "Policy: Recyclebin Configuration": "原則: 資源回收筒設定",
+  "Recyclebin enabled": "已啟用資源回收筒",
+  "Recyclebin policies": "資源回收筒原則",
+  "Recyclebin policy": "資源回收筒原則",
+  "This policy controls which UDM objects are moved to the recyclebin when deleted and how long they are retained.": "此原則控制哪些 UDM 物件在刪除時會移至資源回收筒，以及保留多久。"
+ },
+ "management/univention-directory-manager-modules/modules/univention/admin/handlers/recyclebin/zh_TW.po": {
+  "Objects that have been moved to the recyclebin": "已移至資源回收筒的物件",
+  "Recyclebin: Deleted Object": "資源回收筒: 已刪除物件"
+ },
+ "management/univention-directory-manager-modules/modules/univention/admin/handlers/settings/zh_TW.po": {
+  "Corporate clients": "企業用戶端",
+  "DVS clients": "DVS 用戶端",
+  "DVS users": "DVS 使用者",
+  "Max. clients": "用戶端數上限",
+  "Max. desktops": "桌面數上限",
+  "Max. groupware accounts": "群組軟體帳號數上限",
+  "Max. user accounts": "使用者帳號數上限",
+  "Maximum number of DVS clients this license allows.": "此授權允許的 DVS 用戶端數上限。",
+  "Maximum number of DVS users this license allows.": "此授權允許的 DVS 使用者數上限。",
+  "Maximum number of Univention desktop accounts managed with the UCS infrastructure": "以 UCS 基礎架構管理的 Univention 桌面帳號數上限",
+  "Maximum number of client hosts managed with the UCS infrastructure": "以 UCS 基礎架構管理的用戶端主機數上限",
+  "Maximum number of corporate clients this license allows.": "此授權允許的企業用戶端數上限。",
+  "Maximum number of groupware accounts managed with the UCS infrastructure": "以 UCS 基礎架構管理的群組軟體帳號數上限",
+  "Maximum number of user accounts managed with the UCS infrastructure": "以 UCS 基礎架構管理的使用者帳號數上限",
+  "Module the license is valid for": "此授權適用的模組",
+  "Product types this license allows.": "此授權允許的產品類型。",
+  "Valid product types": "有效的產品類型",
+  "Version 1 license informations": "第 1 版授權資訊"
+ },
+ "management/univention-directory-manager-modules/modules/univention/admin/handlers/zh_TW.po": {
+  "Immutable Object Identifier": "不可變物件識別碼",
+  "Immutable attribute to track the identity of an object in UDM": "用於在 UDM 中追蹤物件身分的不可變屬性"
+ },
+ "management/univention-directory-manager-modules/modules/univention/admin/zh_TW.po": {
+  "Busy": "忙碌中",
+  "Pagination Error": "分頁錯誤",
+  "Role names must not contain any of the following characters: ! * ? [ ] { }": "角色名稱不得包含下列任一字元: ! * ? [ ] { }",
+  "Wrong argument count %d; expected %d..%d": "引數數量錯誤 %d；應為 %d..%d"
+ },
+ "management/univention-directory-manager-rest/src/univention/admin/rest/zh_TW.po": {
+  "Current page": "目前頁面",
+  "Enable pagination": "啟用分頁",
+  "Page size": "每頁筆數",
+  "Restore the object from the recyclebin": "從資源回收筒還原物件",
+  "Server-side pagination is not supported because the LDAP Virtual List View control is unavailable.": "不支援伺服器端分頁，因為 LDAP Virtual List View 控制項無法使用。",
+  "The maximum number of concurrent sorted/paginated LDAP searches has been reached. Please retry later. Error: %s.": "已達同時進行排序/分頁 LDAP 搜尋的數量上限。請稍後再試。錯誤: %s。"
+ },
+ "management/univention-management-console-module-udm/umc/js/zh_TW.po": {
+  "Clients": "用戶端",
+  "Corporate Clients": "企業用戶端",
+  "Desktops": "桌面",
+  "GPL": "GPL",
+  "Original objec type of the removed object.": "已移除物件的原始物件類型。",
+  "Restore deleted objects from recyclebin.": "從資源回收筒還原已刪除的物件。",
+  "The license type \"Free for personal use\" can be upgraded to the latest <a href=\"https://www.univention.com/downloads/license-models/ucs-core-edition\" target=\"_blank\">UCS Core Edition license</a> allowing an unlimited amount of user and computer accounts. To upgrade, follow the instructions in the <a href=\"http://sdb.univention.de/1324\" target=\"_blank\">Univention Support Database</a>.": "\"Free for personal use\" 授權類型可升級為最新的 <a href=\"https://www.univention.com/downloads/license-models/ucs-core-edition\" target=\"_blank\">UCS Core Edition 授權</a>，可使用不限數量的使用者與電腦帳號。若要升級，請依照 <a href=\"http://sdb.univention.de/1324\" target=\"_blank\">Univention Support Database</a> 中的說明操作。",
+  "You are using a GPL license which is not eligible for maintenance or support claims.": "您正在使用 GPL 授權，此授權不適用於維護或支援服務。"
+ },
+ "management/univention-management-console-module-udm/umc/python/udm/zh_TW.po": {
+  "It is not allowed to sort by this property.": "不允許依此屬性排序。",
+  "You are currently using the \"Free for personal use\" edition of Univention Corporate Server.": "您目前使用的是 Univention Corporate Server 的 \"Free for personal use\" 版本。"
+ },
+ "management/univention-management-console-module-udm/umc/zh_TW.po": {
+  "Management of removed objects from recyclebin": "管理資源回收筒中已移除的物件",
+  "Recyclebin": "資源回收筒",
+  "recyclebin,trash,delete,remove,restore": "recyclebin,trash,delete,remove,restore,資源回收筒,垃圾桶,刪除,移除,還原"
+ },
+ "management/univention-self-service/umc/python/passwordreset/zh_TW.po": {
+  "Enter an email address that you can access if you lose access to this account. We will use it to help you recover your account if you forget your password.": "請輸入一個在您無法存取此帳號時仍可使用的電子郵件地址。若您忘記密碼，我們會用它協助您復原帳號。",
+  "Recovery email address": "復原用電子郵件地址"
+ },
+ "test/ucs-test/tests/86_browser/locale/zh_TW.po": {
+  "Recovery email address": "復原用電子郵件地址",
+  "Recovery email address (retype)": "復原用電子郵件地址 (再次輸入)"
+ }
+}
