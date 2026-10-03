@@ -4,6 +4,17 @@
 
 > [English README](README.md)
 
+## 實際畫面
+
+於 UCS 5.2-3 擷取。
+
+| | |
+|---|---|
+| **入口網站 — 語言選單中的「Traditional Chinese」** | **UMC 總覽 — 模組圖示** |
+| ![入口網站語言選單](images/portal_language_menu.png) | ![UMC 總覽](images/umc_overview.png) |
+| **UMC — 使用者編輯頁面** | |
+| ![UMC 使用者編輯頁面](images/umc_user_edit.png) | |
+
 ## 安裝
 
 在 UCS 主機上以 root 執行：

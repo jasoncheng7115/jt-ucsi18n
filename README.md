@@ -6,6 +6,17 @@ Displays the login page, portal and management console (UMC) of
 
 > [繁體中文說明](README_zh-TW.md)
 
+## Screenshots
+
+Taken on UCS 5.2-3.
+
+| | |
+|---|---|
+| **Portal — "Traditional Chinese" in the language menu** | **UMC overview — module tiles** |
+| ![portal language menu](images/portal_language_menu.png) | ![UMC overview](images/umc_overview.png) |
+| **UMC — user edit page** | |
+| ![UMC user edit page](images/umc_user_edit.png) | |
+
 ## Install
 
 Run as root on the UCS host:
