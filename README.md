@@ -25,10 +25,28 @@ Run as root on the UCS host:
 curl -fsSL https://raw.githubusercontent.com/jasoncheng7115/jt-ucsi18n/main/install.sh | bash
 ```
 
-Then pick "Traditional Chinese" in the language menu of the login page and
-reload the browser with Ctrl+Shift+R. Run it once on every UCS host in the
-domain; LDAP data such as portal entry names is only written on the Primary
-Directory Node.
+Run it once on every UCS host in the domain; LDAP data such as portal entry
+names is only written on the Primary Directory Node.
+
+## Switch the language
+
+Installing the pack does not change the language by itself; each user
+switches it in their own browser:
+
+1. Open the UCS portal (`https://<your-ucs-host>/`).
+2. Click the **≡** menu in the top-right corner.
+3. Click **Change Language**.
+4. Pick **Traditional Chinese**.
+
+![portal language menu](images/portal_language_menu.png)
+
+The page reloads in Traditional Chinese, and the login page and UMC follow
+the same setting. The choice is remembered per browser, so every user (and
+every browser) does this once.
+
+If "Traditional Chinese" is missing from the list or parts of the interface
+are still English, reload with Ctrl+Shift+R to clear the cached files. To go
+back, use the same menu (now labelled **變更語言**) and pick English.
 
 ## Supported versions
 

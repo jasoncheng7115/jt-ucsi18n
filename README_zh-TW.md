@@ -23,8 +23,24 @@
 curl -fsSL https://raw.githubusercontent.com/jasoncheng7115/jt-ucsi18n/main/install.sh | bash
 ```
 
-完成後在登入頁的語言選單選擇「Traditional Chinese」，並以 Ctrl+Shift+R 重新整理瀏覽器。
 網域內每台 UCS 主機都要執行一次；入口網站項目名稱等 LDAP 資料只會在 Primary Directory Node 上寫入。
+
+## 切換語言
+
+安裝套件後介面不會自動變成中文，每位使用者要在自己的瀏覽器切換：
+
+1. 開啟 UCS 入口網站 (`https://<你的 UCS 主機>/`)。
+2. 點右上角的 **≡** 選單。
+3. 點 **Change Language**。
+4. 選擇 **Traditional Chinese**。
+
+![入口網站語言選單](images/portal_language_menu.png)
+
+頁面會重新載入為繁體中文，登入頁與 UMC 也會跟著使用同一個設定。
+選擇是記在瀏覽器裡的，所以每位使用者 (每個瀏覽器) 都要做一次。
+
+如果清單裡沒有「Traditional Chinese」，或部分介面仍是英文，請按 Ctrl+Shift+R
+重新整理以清除快取。要切回英文，從同一個選單 (此時顯示為 **變更語言**) 選 English。
 
 ## 支援版本
 
